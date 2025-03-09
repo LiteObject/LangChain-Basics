@@ -12,20 +12,30 @@ This framework consists of several parts.
 
 - **LangSmith**: A developer platform that lets you debug, test, evaluate, and monitor chains built on any LLM framework and seamlessly integrates with LangChain.
 
-![LangChain Stack](./res/langchain_stack.webp)
+## LangChain Architecture
+![LangChain Stack](./res/langchain_stack_dark.svg)
+
+### langchain-core
+Base abstractions and LangChain Expression Language.
+
+### langchain-community
+Third party integrations.
+
+### langchain
+Chains, agents, and retrieval strategies that make up an application's cognitive architecture.
+
+### langgraph: 
+Build robust and stateful multi-actor applications with LLMs by modeling steps as edges and nodes in a graph.
+
+### langserve: 
+Deploy LangChain chains as REST APIs.
+
+### LangSmith: 
+A developer platform that lets you debug, test, evaluate, and monitor LLM applications.
 
 ## LangChain Expression Language (LCEL)
 [LCEL](https://js.langchain.com/v0.1/docs/get_started/introduction/#langchain-expression-language-lcel) is a declarative way to compose chains.
 
-## Modules
-LangChain provides several key modules to help build applications with large language models (LLMs):
-
-1. **Prompts**: Manage prompts for LLMs
-2. **Chains**: Combine LLMs with other components
-3. **Agents**: Use LLMs to decide actions to take
-4. **Memory**: Add state to chains and agents
-5. **Indexes**: Combine LLMs with your own data
-6. **Chains/Callbacks**: Log and stream intermediate steps
 
 ---
 ## Links
