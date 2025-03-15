@@ -20,7 +20,7 @@ def printer(state: State) -> State:
 graphBuilder.add_node("printer", printer)
 
 # Set the entry point
-# graph.set_entry_point(START, "printer")
+# graphBuilder.set_entry_point("printer")
 graphBuilder.add_edge(START, "printer")
 graphBuilder.add_edge("printer", END)
 
