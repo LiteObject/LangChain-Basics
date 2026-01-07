@@ -38,7 +38,7 @@ langgraph-prebuilt==0.1.2
 langgraph-sdk==0.1.55
 langsmith==0.3.12
 lxml==5.3.1
-marshmallow==3.26.1
+marshmallow==3.26.2
 msgpack==1.1.0
 multidict==6.1.0
 mypy-extensions==1.0.0
